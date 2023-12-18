@@ -5,6 +5,8 @@ on:
   push:
     branches: 
       - main
+  schedule:
+    - cron: '0 0 * * SUN'
 
 env:
   DOCKER_IMAGE: ghcr.io/${{ github.repository }}
