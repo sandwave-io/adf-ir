@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/windows/servercore:ltsc2022
+FROM mcr.microsoft.com/windows/servercore:ltsc2025
 ARG INSTALL_JDK=true
 
 # Download the latest self-hosted integration runtime installer into the SHIR folder
